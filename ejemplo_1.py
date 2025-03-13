@@ -22,6 +22,9 @@ def main():
     p2.MostrarPersona()
     p1.Edad = 20
     p1.MostrarPersona()
+    p1 = p2
+    p1.MostrarPersona()
+    p2.MostrarPersona()
 
 
 if __name__== "__main__":
