@@ -52,4 +52,14 @@ class NombreClase:
     - Puedes definir tantos atribitos como necesites
     - Puedes ddefinir tantos métodos como necesites
     - Puedes definir tantos parametros en el constructor y en los metodos como necesites.
-    
+
+## Composición
+
+- Consiste en la creación de nuevas clases a partir de otras clases ya existentes que actuan como elementos compositores de la nueva
+
+- Las clasess existentes seran atributo de a nueva clase
+
+- En POO la composición significa que entre las dos clases existe una relación de tipo "tiene un"
+
+- Ejemplo:
+    - Una coordenada en dos dimenciones esta compuesta por dos valores, el valor en el eje de las x y el valor en el eje de la y, esto podria ser una clase. Un cuadrado esta compuesto por cuatro coordenadas que son los cuatro vertices, esto podria ser una clase que esta compuesta por cuatro clases del objeto coordenada.
