@@ -100,7 +100,7 @@ def main():
     alumno.setNombre("Nicolás")
     alumno.setApellidos("Cabrera Suárez")
     alumno.setEdad(15)
-    alumno.setCurso("Media tecnica")
+    alumno.setCurso("Bachillerato")
     alumno.setAsignaturas(["Matemáticas", "Tecnología", "Inglés"])
     alumno.mostrarAlumno()
 
@@ -109,7 +109,7 @@ def main():
     profesor = Profesor()
     profesor.setNombre("Néstor")
     profesor.setApellidos("Páez Sarmiento")
-    profesor.setEdad(30)
+    profesor.setEdad(25)
     profesor.setAntigüedad(15)
     profesor.setTutorias(["Miercoles de 6:00 a.m hasta 9:20 a.m , Jueves de 2:40 p.m hasta 6:45 p.m, Viernes de 6:00 a.m hasta 10:20 a.m"])
     profesor.setTeléfono ("555 555 5555")
